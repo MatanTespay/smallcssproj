@@ -1,0 +1,21 @@
+h1, h2 {
+  font-family: Lato;
+}
+header{
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80);
+  background-size: cover;
+  color:white;
+}
+ul { padding: 0px;
+background-color: black}
+li {display: inline;
+padding: 0px 10px 0px 10px}
+img {
+  width: 150px;
+  margin : 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px
+}
+a {color:white}
+h1 { font-size:  70px}
