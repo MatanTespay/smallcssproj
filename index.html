@@ -2,35 +2,80 @@
 
 <head>
 	<title>The New Fitness Cookbook</title>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />    
 	<style>
 		body {
 			font-family: helvetica, sans-serif;
+      max-width: 600px;
+      margin : 0 auto
 		}
+    div{
+      height : 200px;
+      background: url('https://image.shutterstock.com/image-photo/mexican-taco-meat-beans-vegetables-260nw-692950210.jpg');
+      background-size: cover;
+      position: relative;
+      border-radius: 12px
+    }
+        .first{
+
+      background: url('https://image.shutterstock.com/image-photo/various-asian-meals-on-rustic-260nw-1125066479.jpg');
+
+    }
+        .second{
+
+      background: url('https://loveoffood.sodexo.com/wp-content/uploads/2015/07/recipes-banner.png');
+
+    }
+        .third{
+]
+      background: url('https://image.shutterstock.com/image-photo/mexican-taco-meat-beans-vegetables-260nw-692950210.jpg');
+
+    }
+    p {
+      color: rgb(255,255,255,1);
+      background-color: rgb(0,0,0,1);
+      background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0, 0.4));
+      background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0, 0.4));
+      background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0, 0.4));      
+      padding: 18px;
+      text-align: justify;
+      line-height: 28px;
+      position: absolute;
+      bottom: 0;
+      margin : 0;
+      width: auto
+    }
+    .price {float: right}
 	</style>
 </head>
 
 <body>
 	<h1>The New Fitness Cookbook</h1>
 
-	<div >
-		<h2>Amuse bouche $1<h2>
+	<div class="first">
+		
 				<p>
+         <small>l bouche <span class="price">$1</span><br>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua.
+					et dolore magna aliqua.</small>
 				</p>
 
 	</div>
-	<div >
-		<h2>Tagliatelle al pomodoro $8</h2>
+	<div class="second">
+		
 		<p>
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+     <small> Tagliatelle al pomodoro<span class="price">$8</span>e <br>
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small>
 		</p>
 
 	</div>
-	<div >
-		<h2>Salmon with zucchini $15</h2>
+	<div class="third">
+		
 		<p>
-			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+     <small> Salmon with zucchini<span class="price">$15</span>e <br>
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</small>
 		</p>
 	</div>
 </body>
